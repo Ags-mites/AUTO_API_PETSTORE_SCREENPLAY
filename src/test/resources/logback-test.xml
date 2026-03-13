@@ -4,12 +4,13 @@
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
-    </repoender>
+    </appender>
 
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
     </root>
 
-    <logger name="net.serenitybdd" level="INFO"/>
+    <logger name="net.serenitybdd" level="DEBUG"/>
     <logger name="io.restassured" level="DEBUG"/>
+    <logger name="net.serenitybdd.cucumber" level="DEBUG"/>
 </configuration>
