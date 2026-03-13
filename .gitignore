@@ -1,0 +1,48 @@
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Maven/General
+target/
+bin/
+out/
+
+# Logs
+*.log
+
+# Test outputs
+test-output/
+screenshots/
+videos/
+
+# Serenity reports
+target/site/serenity/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env
+
+# Test results
+build/test-results/
